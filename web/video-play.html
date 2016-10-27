@@ -18,6 +18,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 			expand.addEventListener("click",FullScreen);
+			
+			
+			var video= getUrlVars()["v"];
+	
+			document.getElementById("Video1").setAttribute("src", video);
+			alert(video);
 		}
 
 		function changeSrc(event){
@@ -87,9 +93,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     });
     return vars;
     }
-    var video= getUrlVars()["v"];
-	alert(video);
-	document.getElementById('Video1').setAttribute("src", video);
+
 
     
 
