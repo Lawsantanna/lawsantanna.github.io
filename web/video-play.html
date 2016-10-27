@@ -18,8 +18,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 			expand.addEventListener("click",FullScreen);
-			
-			
 			var video= getUrlVars()["v"];
 	
 			document.getElementById("Video1").setAttribute("src", video);
@@ -94,7 +92,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     return vars;
     }
 
-
     
 
 
@@ -147,7 +144,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <tr>
                 <td>
                     <video width="502" height="360" id="Video1">
-                        <source src="video1.webm" type=video/webm>
+                        <source id="valor" src="" type=video/webm>
                     </video>    
                 </td>
             </tr>
